@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+.problems {
+    max-width: 700px;
+    h5 {
+        color: #D1D5DB;
+        font-size: 24px;
+    }
+    p {
+        color: #6B7280;
+        font-size: medium;
+    }
+    a {
+        color: #6B7280;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 17px;
+        
+        &:hover {
+            color: #6B7280;
+        }
+    }
+}
+.ready {
+    width: 70%;
+    max-width: 700px;
+
+    h2 {
+        color: #D1D5DB;
+    }
+    h3 {
+        color: whitesmoke;
+    }
+    textarea {
+        width: 80%;
+        height: 200px;
+    }
+    button {
+        width: 80%;
+    }
+}
+footer {
+    background-color: #1F2937;
+    height: 50px;
+    margin-top: -25px;
+    p {
+        margin-top: 15px;
+    }
+}
+@media(max-width:500px) {
+    .ready {
+        width: 100%;
+
+        textarea , button {
+            width: 70%;
+        }
+    }
+}
+a {
+    cursor: pointer !important;
+}
+.root {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    color: whitesmoke;
+
+    .table1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        border: thin solid whitesmoke;
+
+        h5 {
+            font-size: 20px;
+            margin: 0;
+            margin-top: 10px;
+        }
+        table {
+            border-color: whitesmoke;
+        }
+    }
+}
+.grid-container{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    width: fit-content;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            color: black;
+        }
+    }
+    div {
+        width: 144px;
+        height: 144px;
+        background-color: white;
+        display: inline-block;
+        text-align: center;
+        margin: 0.5rem;
+
+        img {
+            height: 100%;
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    }
+}
+@media (min-width:500px) {
+    .hero-img {
+        width: 60% !important;
+    }
+}
